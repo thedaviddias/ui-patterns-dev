@@ -1,0 +1,10 @@
+name: 'Install'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: 'Install  Dependencies'
+      id: dependencies
+      shell: bash
+      if: steps.cache-node-modules.outputs.cache-hit != 'true'
+      run: pnpm install --reporter=silent --frozen-lockfile

@@ -1,0 +1,44 @@
+{
+  "search.exclude": {
+    ".git": true,
+    "node_modules": true,
+    "package.lock": true,
+    "pnpm-lock.yaml": true,
+    ".next": true,
+    "coverage": true,
+    "public": true,
+    "CHANGELOG": true,
+    "CODE_OF_CONDUCT": true,
+    "CONTRIBUTING": true,
+    "LICENCE": true
+  },
+  // "editor.formatOnSave": true,
+  "javascript.format.enable": true,
+  "javascript.validate.enable": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+  },
+  "eslint.validate": [
+    "markdown",
+    "mdx",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint",
+    "source.fixAll.format"
+  ],
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  // "eslint.format.enable": true,
+  // "eslint.run": "onSave",
+  "eslint.packageManager": "pnpm",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

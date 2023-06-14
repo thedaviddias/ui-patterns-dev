@@ -1,0 +1,34 @@
+node_modules
+dist
+.next
+.tsbuildinfo
+
+# dependencies
+node_modules
+package.json
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# testing
+/coverage
+
+# next.js
+.next
+next-env.d.ts
+public
+coverage
+docs
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.DS_Store
+*.pem
+.vscode
+
+coverage
+docs

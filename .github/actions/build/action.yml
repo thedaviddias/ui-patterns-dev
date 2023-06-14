@@ -1,0 +1,17 @@
+name: 'Build'
+
+inputs:
+  BUILD_COMMAND:
+    description: 'Dynamic Build String for Run Script'
+    default: 'build'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: 'Build'
+      id: build
+      shell: bash
+      run: |
+        pnpm run ${{ inputs.BUILD_COMMAND }} \
+          --output-logs="errors-only"

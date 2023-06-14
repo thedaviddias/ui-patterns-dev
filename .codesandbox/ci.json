@@ -1,0 +1,12 @@
+{
+  "setupTasks": [
+    {
+      "name": "update pnpm",
+      "command": "npm install -g pnpm --force"
+    },
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+[ -n "$CI" ] && exit 0
+. "$(dirname -- "$0")/_/husky.sh"
+
+FILE_ENV=.env
+if [ -f "$FILE_ENV" ]; then
+    [ ! -f "$FILE_ENV" ] || export $(grep -v '^#' $FILE_ENV | xargs)
+fi
+
+if ps -o args= $PPID | grep -E -q ' --no-verify| -n | -n$' ; then
+    exit 0
+elif [ "$HUSKY" = "0" ]; then
+    exit 0
+elif [[ "$HUSKY__PRE_COMMIT__FORMAT" = "0" && "$HUSKY__PRE_COMMIT__LINT" = "0" ]]; then
+    exit 0
+fi
+
+if [ ! "$HUSKY__PRE_COMMIT__LINT" = "0" ]; then
+    pnpm lint-staged
+fi
+
