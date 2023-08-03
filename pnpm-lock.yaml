@@ -2424,7 +2424,7 @@ packages:
       '@storybook/core-events': 7.0.0-beta.43
       '@storybook/csf': 0.1.1-next.0
       '@storybook/csf-tools': 7.0.0-beta.43
-      '@storybook/docs-mdx': 0.0.1-next.7
+      '@storybook/docs-mdx': 0.1.1-next.0
       '@storybook/global': 5.0.0
       '@storybook/node-logger': 7.0.0-beta.43
       '@storybook/preview-api': 7.0.0-beta.43
@@ -2491,8 +2491,8 @@ packages:
       type-fest: 2.19.0
     dev: true
 
-  /@storybook/docs-mdx@0.0.1-next.7:
-    resolution: {integrity: sha512-JbgBf/EMBtx65iXtB3pOiX3818UeL9jZ+KAY241OAPqJVXjMQ5KaVOdg/57MSmd508HDIGx7CiImOMEmWwQ9/g==}
+  /@storybook/docs-mdx@0.1.1-next.0:
+    resolution: {integrity: sha512-t5gehdVj1GxicE2W3mslaqaLGKg6u1wZRySVrWNM4Ue7PmuI0LvJDLcOcaIzizc4Duh+JljMvShK8NTaxhE1PA==}
     dev: true
 
   /@storybook/global@5.0.0:
@@ -7449,7 +7449,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       pify: 4.0.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: true
 
   /make-dir@3.1.0:
@@ -8381,7 +8381,7 @@ packages:
     dependencies:
       hosted-git-info: 2.8.9
       resolve: 1.22.1
-      semver: 5.7.1
+      semver: 5.7.2
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -9623,8 +9623,8 @@ packages:
       kind-of: 6.0.3
     dev: false
 
-  /semver@5.7.1:
-    resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
+  /semver@5.7.2:
+    resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
     dev: true
 
