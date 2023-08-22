@@ -2424,7 +2424,7 @@ packages:
       '@storybook/core-events': 7.0.0-beta.43
       '@storybook/csf': 0.1.1-next.0
       '@storybook/csf-tools': 7.0.0-beta.43
-      '@storybook/docs-mdx': 0.0.1-next.7
+      '@storybook/docs-mdx': 0.1.1-next.0
       '@storybook/global': 5.0.0
       '@storybook/node-logger': 7.0.0-beta.43
       '@storybook/preview-api': 7.0.0-beta.43
@@ -2491,8 +2491,8 @@ packages:
       type-fest: 2.19.0
     dev: true
 
-  /@storybook/docs-mdx@0.0.1-next.7:
-    resolution: {integrity: sha512-JbgBf/EMBtx65iXtB3pOiX3818UeL9jZ+KAY241OAPqJVXjMQ5KaVOdg/57MSmd508HDIGx7CiImOMEmWwQ9/g==}
+  /@storybook/docs-mdx@0.1.1-next.0:
+    resolution: {integrity: sha512-t5gehdVj1GxicE2W3mslaqaLGKg6u1wZRySVrWNM4Ue7PmuI0LvJDLcOcaIzizc4Duh+JljMvShK8NTaxhE1PA==}
     dev: true
 
   /@storybook/global@5.0.0:
@@ -8547,7 +8547,7 @@ packages:
       levn: 0.3.0
       prelude-ls: 1.1.2
       type-check: 0.3.2
-      word-wrap: 1.2.3
+      word-wrap: 1.2.5
     dev: true
 
   /optionator@0.9.1:
@@ -8559,7 +8559,7 @@ packages:
       levn: 0.4.1
       prelude-ls: 1.2.1
       type-check: 0.4.0
-      word-wrap: 1.2.3
+      word-wrap: 1.2.5
 
   /p-finally@1.0.0:
     resolution: {integrity: sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow==}
@@ -10863,8 +10863,8 @@ packages:
       string-width: 4.2.3
     dev: true
 
-  /word-wrap@1.2.3:
-    resolution: {integrity: sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==}
+  /word-wrap@1.2.5:
+    resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
 
   /wordwrap@1.0.0:
